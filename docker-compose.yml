@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web:
+    ports:
+      - 2000:2000
+    volumes:
+      - ./app:/usr/src/app
+    networks:
+      - webnet
+    build: ./
+
+networks:
+  webnet:

@@ -1,0 +1,27 @@
+{
+  "name": "test_node",
+  "version": "1.0.0",
+  "description": "this is to test container stuff",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "test",
+    "container"
+  ],
+  "author": "Steffan Boodhoo",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
